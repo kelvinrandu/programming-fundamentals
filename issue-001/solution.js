@@ -1,3 +1,4 @@
+//function that implements dataType check
 function dataTypeCheck(a) {
     // implement your solution here
     if ( typeof a ==="string" && isNaN(a)) {
@@ -34,7 +35,7 @@ else if (typeof a ==='undefined') {
   return false;
 }
 else{
- a="please input again"
+ a="please input your var again"
  return a;
 }
 }
