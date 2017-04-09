@@ -1,4 +1,4 @@
-// here is the raw learners list that you are supposed to 
+// here is the raw learners list that you are supposed to
 // process appropriately
 var learnersRaw = [
     ['Anthony N.', 'anthony', ['Java:8', 'JavaScript:7', 'PHP:5']],
@@ -10,12 +10,26 @@ var learnersRaw = [
 ];
 
 // your code starts here, onwards
+var Learners = [];
+Learners = learnersRaw.map(function(x) {
+    return {
+        "name": x[0],
+        "nickname": x[1],
+        "skills": learnersRaw.map(function(x){x[2]
+        }
+        }
 
-var learners = [];
-
+})
 function Learner(name, username, skills) {
-    // your code here
-}
+
+this.username = username;
+this.name = name;
+this.skills = [];
+this.bestSkill = function () {
+
+}// your code here
+ }
+
 
 function bestSkills(learners) {
     // your code here
